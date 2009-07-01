@@ -14,8 +14,8 @@ this presentation, your audience will:
 Your audience will get the most out of this presentation if they:
 
 - Have previous experience developing websites and applications with HTML, JavaScript, and CSS
-- A laptop computer they can bring with them for a lab session (or a machine to use)
-- Pre-install the Titanium Developer as well as the Android and iPhone SDKs
+- Have a laptop computer they can bring with them for a lab session (or a machine to use)
+- Pre-install the Titanium Developer as well as the Android and iPhone SDKs on their machine
 
 ## What's inside the Titanium Mobile Meetup Pack
 
