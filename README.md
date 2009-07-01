@@ -11,7 +11,15 @@ this presentation, your audience will:
 - Have a real, functioning application that runs on Android and iPhone devices
 - Be exposed to all of the support resources and documentation needed to develop independently
 
+Your audience will get the most out of this presentation if they:
+
+- Have previous experience developing websites and applications with HTML, JavaScript, and CSS
+- A laptop computer they can bring with them for a lab session (or a machine to use)
+- Pre-install the Titanium Developer as well as the Android and iPhone SDKs
+
 ## What's inside the Titanium Mobile Meetup Pack
+
+The meetup pack includes the following materials:
 
 - PowerPoint and Keynote presentation slides to direct your meeting
 - Presenter notes for setup, presentation, and lab components
