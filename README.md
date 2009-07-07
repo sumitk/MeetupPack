@@ -27,6 +27,15 @@ The meetup pack includes the following materials:
 - Visual assets, badges, and promotional materials for your session for web and print
 - Instructions on how to get support from Appcelerator to promote and execute your event
 
+## Hey, the example doesn't work!
+
+It does too!  It's just that since the product is in Beta, the SDK undergoes frequent changes, which may or
+may not have an effect on your code.  The APIs should remain static, but some of the releases may have  < gasp! >
+bugs where some of the functionality in this example may not totally work.  This example
+is known to work with the 0.4.0 release of the Titanium SDK and iPhone OS version 3.0.  If you need to
+download the 0.4.0 version of the SDK, [it can be found here](http://bit.ly/9gBbk).  Download the contents
+and unzip to /Library/Application Support/Titanium/mobilesdk/osx/0.4.0
+
 ## Who do I contact if I have questions?
 
 If you encounter any errors with this material or have any general questions, 
