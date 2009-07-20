@@ -1,6 +1,6 @@
-# Titanium Mobile Meetup Pack
+# Appcelerator University: Titanium Mobile Meetup Pack
 
-Thanks for checking out Titanium Mobile!  If you're reading this, you are likely interested in
+Thanks for checking out App U's Titanium Mobile meetup pack!  If you're reading this, you are likely interested in
 giving a Titanium Mobile presentation for your company, user group, college class, and/or
 sewing circle.  That's great, we're glad to hear it!  Use these materials to bootstrap your 
 presentation with enough material for a three hour presentation and lab session.  At the end of
@@ -25,7 +25,12 @@ The meetup pack includes the following materials:
 - Presenter notes for setup, presentation, and lab components
 - Source code for starter project and finished product
 - Visual assets, badges, and promotional materials for your session for web and print
-- Instructions on how to get support from Appcelerator to promote and execute your event
+
+## Okay, I want to give this presentation.  Can you help?
+
+Heck yeah!  [Go to our App U website](http://www.appcelerator.com/community/app-u) and fill out the form
+at the bottom of the page.  We'll contact you and set up the details for sending out t-shirts and other
+cool swag for your event, plus put our heads together on how to promote your event.
 
 ## Hey, the example doesn't work!
 
