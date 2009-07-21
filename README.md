@@ -38,8 +38,8 @@ It does too!  It's just that since the product is in Beta, the SDK undergoes fre
 may not have an effect on your code.  The APIs should remain static, but some of the releases may have  < gasp! >
 bugs where some of the functionality in this example may not totally work.  This example
 is known to work with the 0.4.0 release of the Titanium SDK and iPhone OS version 3.0.  If you need to
-download the 0.4.0 version of the SDK, [it can be found here](http://bit.ly/9gBbk).  Download the contents
-and unzip to /Library/Application Support/Titanium/mobilesdk/osx/0.4.0
+download the 0.4.0 version of the SDK, it is compressed and included along with this project in the `/code`
+directory.  Download the contents and unzip to /Library/Application Support/Titanium/mobilesdk/osx/
 
 ## Who do I contact if I have questions?
 
