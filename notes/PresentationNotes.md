@@ -69,3 +69,84 @@ can choose either the HTML 5 client side storage spec or use Titanium's own sync
 
 Titanium has a XMLHTTPRequest type object that is used to make remote service calls.  The browser's native
 XHR object will not work due to implementation details of the Titanium Mobile SDK.
+
+### 13-16: Native UI
+
+Titanium exposes a number of native UI components, such as table views, tabs, text fields, and more.  To
+get an idea of what is available, check out [the Kitchen Sink example](http://github.com/kwhinnery/KitchenSink).
+You may or may not want to actually demo the Kitchen Sink in your presentation - it's actually a good tool
+for getting a feel for what is possible using Mobile SDK components.  As pointed out on slide 16, the API
+for creating components is, where possible, uniform across platforms.
+
+### 17: More APIs
+
+Some additional APIs are listed on this slide.  Point out that the team consistently releases more APIs
+to expose a larger number of device capabilities, and that while the process is not yet well documented,
+the mobile SDK is built on an extensible architecture that can be augmented by anyone to add additional
+native functionality to the mobile SDK.
+
+### 18: More Examples
+
+The resources linked on this slide point out the examples on our doc site.  These are points for further
+exploration for attendees.
+
+### 19: Titanium Developer
+
+On this slide, you will explore the capabilities of the Titanium Developer (capital "D" Developer for short), 
+which is the app you download from appcelerator.com.  This app requires that you log in the Developer Network 
+(or sign up for an account).  To create mobile apps, you will need Beta access, as described in `/notes/Setup.md`.  
+Point out that Developer is its self an open source Titanium Desktop application.
+
+Developer helps app devs deploy to simulator, device, and package for distribution.  
+
+### 20: Hello World
+
+At this point, attendees should fire up Developer and create their first mobile project (or at least follow the
+presenter through the process).  Go over the code structure of the newly generated project.  Areas of interest
+include:
+
+- `/build` -- Build artifacts generated from Developer.  DON'T TOUCH unless you know what you are doing.
+- `/Resources` -- The logical webroot of the application, where all assets, HTML, CSS, and JS source goes.
+- `/Resources/iphone` -- Any assets in this directory will be deployed over the top of anything in /Resources on iPhone
+- `/Resources/android` -- Same as above - this is for Android-specific assets. 
+- `/tiapp.xml` -- Your app's configuration file.  Default windows, tabs, and app options.
+
+### 21: Resources
+
+This is a compendium of resources new devs should have at their disposal - we respond ASAP to support issues,
+and hang out on IRC most of the day.  The people to ping are:
+
+- Kevin Whinnery - `kwhinnery` - Titanium and Entourage developer and scribe
+- Marshall Culpepper - `marshall_law` - Titanium Desktop Lead
+- Don Thorp - `donthorp` - Mobile project lead (Android)
+- Blain Hamon - `blainH` - Mac OS X and iPhone Guru
+- Nolan Wright - `nwright` - CTO/Tech Lead for Appcelerator
+- Jeff Haynie - `jhaynie` - CEO/Head Honcho
+
+### 22: Mobile Lab
+
+Requires all folks have beta access (or at least presenter, so the group can follow along).  Slide describes objective
+and APIs used.  Highlight that no 3rd party JS library is required to run Titanium, though jQuery is currently
+used for convenience in this example.
+
+### 23: Bootstrapping
+
+Anyone attempting this demo will need to have the Titanium Developer installed, plus any mobile SDK they plan on
+targeting.  Android developers will need the 1.5 SDK installed, and iPhone developers (on Mac) will need the 3.0 or
+3.1 beta SDK installed.  This demo was coded to the 0.4.0 version of the Titanium Mobile APIs.  It should work on
+any version, but your mileage may vary.  The 0.4.0 SDK version is located in the `/code` directory along with the sample.
+
+### 24 - 35: Code by numbers
+
+These slides will take you step by step through the development process, highlighting pieces of the API for making remote
+service calls, storing properties, and more.  The code for these samples is hosted on gist.github.com - if you're going
+to be offline, you may want to stash these snippets away before presenting.  At some point I might bring them into the
+documentation also.  Proceed through numbered examples, pasting in the code from the corresponding number.  The sample
+application code will be stubbed out, and will reference a number in a comment that should be replaced with the actual 
+code contained in the Gist.
+
+## Conclusion
+
+If you're doing a 3 hour session, you would encourage your attendees at this point to experiment on their own
+with whatever apps they plan on creating.  This will allow them to get comfortable with the SDK and the doc/support
+resources available so that they can independently continue developing Titanium applications.

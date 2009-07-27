@@ -9,7 +9,12 @@
 	<statusbar-style>opaque</statusbar-style>
 	<windows>
 		<window>
-			<!-- #1: http://gist.github.com/142095 -->
+			<id>initial</id>
+			<url>index.html</url>
+			<backgroundColor>#000</backgroundColor>
+			<fullscreen>false</fullscreen>
+			<hideNavBar>true</hideNavBar>
+			<hideTabBar>true</hideTabBar>
 		</window>
 	</windows>
 </ti:app>
