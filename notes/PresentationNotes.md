@@ -149,4 +149,4 @@ code contained in the Gist.
 
 If you're doing a 3 hour session, you would encourage your attendees at this point to experiment on their own
 with whatever apps they plan on creating.  This will allow them to get comfortable with the SDK and the doc/support
-resources available so that they can independently continue developing Titanium applications.
+resources available so that they can independently continue developing Titanium applications.	
