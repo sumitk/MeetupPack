@@ -77,6 +77,7 @@ window.onload = function() {
 	
 	//Handle button click and send picture
 	postButton.addEventListener('click',function(e) {
+	  Titanium.API.error("Some kind of message!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 	  if (Titanium.Network.NETWORK_NONE) {
 	    var a = Titanium.UI.createAlertDialog({
  	      title:'Whoa There!',
@@ -87,7 +88,7 @@ window.onload = function() {
 	  else if (currentImage == null) {
 	    var a = Titanium.UI.createAlertDialog({
  	      title:'Whoa There!',
- 	      message:'Easy there shooter - you should probably select an image first.'
+ 	      message:'Take it easy, shooter - you should probably select an image first, eh?'
  	    });
  	    a.show();
 	  }
@@ -170,5 +171,4 @@ window.onload = function() {
     document.getElementById('theImage').src = currentImage.url;
     showSelected();
   }
-  
 };

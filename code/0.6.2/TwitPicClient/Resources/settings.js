@@ -1,4 +1,5 @@
 window.onload = function() {
+  
 	//Initialize twitter username and password from system properties
 	var u = Titanium.App.Properties.getString('username');
   var p = Titanium.App.Properties.getString('password');
